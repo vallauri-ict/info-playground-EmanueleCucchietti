@@ -1,0 +1,9 @@
+C:\Users\e.cucchietti.1732\source\repos\oop02\oop02\bin\Debug\oop02.exe.config
+C:\Users\e.cucchietti.1732\source\repos\oop02\oop02\bin\Debug\oop02.exe
+C:\Users\e.cucchietti.1732\source\repos\oop02\oop02\bin\Debug\oop02.pdb
+C:\Users\e.cucchietti.1732\source\repos\oop02\oop02\obj\Debug\oop02.csprojAssemblyReference.cache
+C:\Users\e.cucchietti.1732\source\repos\oop02\oop02\obj\Debug\oop02.Form1.resources
+C:\Users\e.cucchietti.1732\source\repos\oop02\oop02\obj\Debug\oop02.Properties.Resources.resources
+C:\Users\e.cucchietti.1732\source\repos\oop02\oop02\obj\Debug\oop02.csproj.GenerateResource.cache
+C:\Users\e.cucchietti.1732\source\repos\oop02\oop02\obj\Debug\oop02.exe
+C:\Users\e.cucchietti.1732\source\repos\oop02\oop02\obj\Debug\oop02.pdb

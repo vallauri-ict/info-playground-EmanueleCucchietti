@@ -1,0 +1,12 @@
+C:\Users\e.cucchietti.1732\source\repos\Ex 2 Informatica Teoria\Ex 2 Informatica Teoria\bin\Debug\Ex 2 Informatica Teoria.exe.config
+C:\Users\e.cucchietti.1732\source\repos\Ex 2 Informatica Teoria\Ex 2 Informatica Teoria\bin\Debug\Ex 2 Informatica Teoria.exe
+C:\Users\e.cucchietti.1732\source\repos\Ex 2 Informatica Teoria\Ex 2 Informatica Teoria\bin\Debug\Ex 2 Informatica Teoria.pdb
+C:\Users\e.cucchietti.1732\source\repos\Ex 2 Informatica Teoria\Ex 2 Informatica Teoria\obj\Debug\Ex 2 Informatica Teoria.csprojAssemblyReference.cache
+C:\Users\e.cucchietti.1732\source\repos\Ex 2 Informatica Teoria\Ex 2 Informatica Teoria\obj\Debug\Ex_2_Informatica_Teoria.Figlia1.resources
+C:\Users\e.cucchietti.1732\source\repos\Ex 2 Informatica Teoria\Ex 2 Informatica Teoria\obj\Debug\Ex_2_Informatica_Teoria.Form1.resources
+C:\Users\e.cucchietti.1732\source\repos\Ex 2 Informatica Teoria\Ex 2 Informatica Teoria\obj\Debug\Ex_2_Informatica_Teoria.Properties.Resources.resources
+C:\Users\e.cucchietti.1732\source\repos\Ex 2 Informatica Teoria\Ex 2 Informatica Teoria\obj\Debug\Ex 2 Informatica Teoria.csproj.GenerateResource.cache
+C:\Users\e.cucchietti.1732\source\repos\Ex 2 Informatica Teoria\Ex 2 Informatica Teoria\obj\Debug\Ex 2 Informatica Teoria.exe
+C:\Users\e.cucchietti.1732\source\repos\Ex 2 Informatica Teoria\Ex 2 Informatica Teoria\obj\Debug\Ex 2 Informatica Teoria.pdb
+C:\Users\e.cucchietti.1732\source\repos\Ex 2 Informatica Teoria\Ex 2 Informatica Teoria\obj\Debug\Ex_2_Informatica_Teoria.Figlia2.resources
+C:\Users\e.cucchietti.1732\source\repos\Ex 2 Informatica Teoria\Ex 2 Informatica Teoria\obj\Debug\Ex_2_Informatica_Teoria.EsciModale.resources
