@@ -1,0 +1,8 @@
+C:\Users\e.cucchietti.1732\Desktop\info\info-playground-EmanueleCucchietti\OOP\oop03\oop03\bin\Debug\oop03.exe.config
+C:\Users\e.cucchietti.1732\Desktop\info\info-playground-EmanueleCucchietti\OOP\oop03\oop03\bin\Debug\oop03.exe
+C:\Users\e.cucchietti.1732\Desktop\info\info-playground-EmanueleCucchietti\OOP\oop03\oop03\bin\Debug\oop03.pdb
+C:\Users\e.cucchietti.1732\Desktop\info\info-playground-EmanueleCucchietti\OOP\oop03\oop03\obj\Debug\oop03.csprojAssemblyReference.cache
+C:\Users\e.cucchietti.1732\Desktop\info\info-playground-EmanueleCucchietti\OOP\oop03\oop03\obj\Debug\oop03.Properties.Resources.resources
+C:\Users\e.cucchietti.1732\Desktop\info\info-playground-EmanueleCucchietti\OOP\oop03\oop03\obj\Debug\oop03.csproj.GenerateResource.cache
+C:\Users\e.cucchietti.1732\Desktop\info\info-playground-EmanueleCucchietti\OOP\oop03\oop03\obj\Debug\oop03.exe
+C:\Users\e.cucchietti.1732\Desktop\info\info-playground-EmanueleCucchietti\OOP\oop03\oop03\obj\Debug\oop03.pdb
