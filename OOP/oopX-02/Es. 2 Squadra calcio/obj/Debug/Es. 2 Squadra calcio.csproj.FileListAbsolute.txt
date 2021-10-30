@@ -1,0 +1,9 @@
+C:\Users\p.barbero.1701\Desktop\Info teoria\Es. 2 Squadra calcio\Es. 2 Squadra calcio\bin\Debug\Es. 2 Squadra calcio.exe.config
+C:\Users\p.barbero.1701\Desktop\Info teoria\Es. 2 Squadra calcio\Es. 2 Squadra calcio\bin\Debug\Es. 2 Squadra calcio.exe
+C:\Users\p.barbero.1701\Desktop\Info teoria\Es. 2 Squadra calcio\Es. 2 Squadra calcio\bin\Debug\Es. 2 Squadra calcio.pdb
+C:\Users\p.barbero.1701\Desktop\Info teoria\Es. 2 Squadra calcio\Es. 2 Squadra calcio\obj\Debug\Es. 2 Squadra calcio.csprojAssemblyReference.cache
+C:\Users\p.barbero.1701\Desktop\Info teoria\Es. 2 Squadra calcio\Es. 2 Squadra calcio\obj\Debug\Es._2_Squadra_calcio.Form1.resources
+C:\Users\p.barbero.1701\Desktop\Info teoria\Es. 2 Squadra calcio\Es. 2 Squadra calcio\obj\Debug\Es._2_Squadra_calcio.Properties.Resources.resources
+C:\Users\p.barbero.1701\Desktop\Info teoria\Es. 2 Squadra calcio\Es. 2 Squadra calcio\obj\Debug\Es. 2 Squadra calcio.csproj.GenerateResource.cache
+C:\Users\p.barbero.1701\Desktop\Info teoria\Es. 2 Squadra calcio\Es. 2 Squadra calcio\obj\Debug\Es. 2 Squadra calcio.exe
+C:\Users\p.barbero.1701\Desktop\Info teoria\Es. 2 Squadra calcio\Es. 2 Squadra calcio\obj\Debug\Es. 2 Squadra calcio.pdb
