@@ -1,0 +1,9 @@
+C:\Users\e.cucchietti.1732\Desktop\5+95\info-playground-EmanueleCucchietti\OOP\oop04\oop04\bin\Debug\oop04.exe.config
+C:\Users\e.cucchietti.1732\Desktop\5+95\info-playground-EmanueleCucchietti\OOP\oop04\oop04\bin\Debug\oop04.exe
+C:\Users\e.cucchietti.1732\Desktop\5+95\info-playground-EmanueleCucchietti\OOP\oop04\oop04\bin\Debug\oop04.pdb
+C:\Users\e.cucchietti.1732\Desktop\5+95\info-playground-EmanueleCucchietti\OOP\oop04\oop04\obj\Debug\oop04.csprojAssemblyReference.cache
+C:\Users\e.cucchietti.1732\Desktop\5+95\info-playground-EmanueleCucchietti\OOP\oop04\oop04\obj\Debug\oop04.Form1.resources
+C:\Users\e.cucchietti.1732\Desktop\5+95\info-playground-EmanueleCucchietti\OOP\oop04\oop04\obj\Debug\oop04.Properties.Resources.resources
+C:\Users\e.cucchietti.1732\Desktop\5+95\info-playground-EmanueleCucchietti\OOP\oop04\oop04\obj\Debug\oop04.csproj.GenerateResource.cache
+C:\Users\e.cucchietti.1732\Desktop\5+95\info-playground-EmanueleCucchietti\OOP\oop04\oop04\obj\Debug\oop04.exe
+C:\Users\e.cucchietti.1732\Desktop\5+95\info-playground-EmanueleCucchietti\OOP\oop04\oop04\obj\Debug\oop04.pdb
