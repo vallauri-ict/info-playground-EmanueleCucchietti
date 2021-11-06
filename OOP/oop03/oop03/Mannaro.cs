@@ -25,7 +25,7 @@ namespace oop03
         }
         public double Valore()
         {
-            return punti += base.Valore();
+            return punti + base.Valore();
         }
     }
 }

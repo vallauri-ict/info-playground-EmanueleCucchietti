@@ -19,7 +19,8 @@ namespace oop03
 
         private void btnCreaMannaro_Click(object sender, EventArgs e)
         {
-            Mannaro m1 = new Mannaro();
+            Mannaro m1 = new Mannaro("test");
+            MessageBox.Show("Punti del mannaro: " + m1.Valore().ToString());
         }
     }
 }
