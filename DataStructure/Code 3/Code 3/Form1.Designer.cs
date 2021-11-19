@@ -29,15 +29,16 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtEta = new System.Windows.Forms.TextBox();
             this.lblEta = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbColore = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.nmUDtemp = new System.Windows.Forms.NumericUpDown();
             this.btnAddPatient = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.btnPreleva = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.nmUDtemp)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -49,19 +50,19 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nome:";
             // 
-            // textBox1
+            // txtNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(90, 16);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtNome.Location = new System.Drawing.Point(90, 16);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(100, 20);
+            this.txtNome.TabIndex = 1;
             // 
-            // textBox2
+            // txtEta
             // 
-            this.textBox2.Location = new System.Drawing.Point(90, 42);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
+            this.txtEta.Location = new System.Drawing.Point(90, 42);
+            this.txtEta.Name = "txtEta";
+            this.txtEta.Size = new System.Drawing.Size(100, 20);
+            this.txtEta.TabIndex = 3;
             // 
             // lblEta
             // 
@@ -81,18 +82,18 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Colore: ";
             // 
-            // comboBox1
+            // cmbColore
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbColore.FormattingEnabled = true;
+            this.cmbColore.Items.AddRange(new object[] {
             "Rosso",
             "Giallo",
             "Verde",
             "Bianco"});
-            this.comboBox1.Location = new System.Drawing.Point(90, 94);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 6;
+            this.cmbColore.Location = new System.Drawing.Point(90, 94);
+            this.cmbColore.Name = "cmbColore";
+            this.cmbColore.Size = new System.Drawing.Size(100, 21);
+            this.cmbColore.TabIndex = 6;
             // 
             // label3
             // 
@@ -103,13 +104,13 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Temperatura:";
             // 
-            // numericUpDown1
+            // nmUDtemp
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(90, 68);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(100, 20);
-            this.numericUpDown1.TabIndex = 8;
-            this.numericUpDown1.Value = new decimal(new int[] {
+            this.nmUDtemp.Location = new System.Drawing.Point(90, 68);
+            this.nmUDtemp.Name = "nmUDtemp";
+            this.nmUDtemp.Size = new System.Drawing.Size(100, 20);
+            this.nmUDtemp.TabIndex = 8;
+            this.nmUDtemp.Value = new decimal(new int[] {
             37,
             0,
             0,
@@ -125,24 +126,35 @@
             this.btnAddPatient.UseVisualStyleBackColor = true;
             this.btnAddPatient.Click += new System.EventHandler(this.btnAddPatient_Click);
             // 
+            // btnPreleva
+            // 
+            this.btnPreleva.Location = new System.Drawing.Point(227, 97);
+            this.btnPreleva.Name = "btnPreleva";
+            this.btnPreleva.Size = new System.Drawing.Size(103, 23);
+            this.btnPreleva.TabIndex = 10;
+            this.btnPreleva.Text = "Preleva Paziente";
+            this.btnPreleva.UseVisualStyleBackColor = true;
+            this.btnPreleva.Click += new System.EventHandler(this.btnPreleva_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnPreleva);
             this.Controls.Add(this.btnAddPatient);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.nmUDtemp);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbColore);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtEta);
             this.Controls.Add(this.lblEta);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmUDtemp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,14 +163,15 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtEta;
         private System.Windows.Forms.Label lblEta;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbColore;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown nmUDtemp;
         private System.Windows.Forms.Button btnAddPatient;
+        private System.Windows.Forms.Button btnPreleva;
     }
 }
 
