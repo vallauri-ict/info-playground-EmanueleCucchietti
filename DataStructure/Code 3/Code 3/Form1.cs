@@ -106,13 +106,13 @@ namespace Code_3
             MessageBox.Show(
                 "Il paziente prelevato è: \n"
                 +
-                patient.nome
+                "Nome: " + patient.nome + "\n"
                 +
-                patient.eta
+                "Età: " + patient.eta + "\n"
                 +
-                patient.temperatura
+                "Temperatura: " + patient.temperatura + "\n"
                 +
-                color
+                "Codice colore: " + color +"\n"
                 );
         }
     }
