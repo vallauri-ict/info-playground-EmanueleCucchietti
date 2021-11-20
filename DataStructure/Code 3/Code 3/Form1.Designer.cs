@@ -38,6 +38,8 @@
             this.nmUDtemp = new System.Windows.Forms.NumericUpDown();
             this.btnAddPatient = new System.Windows.Forms.Button();
             this.btnPreleva = new System.Windows.Forms.Button();
+            this.lblTMax = new System.Windows.Forms.Label();
+            this.lblTMin = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nmUDtemp)).BeginInit();
             this.SuspendLayout();
             // 
@@ -136,11 +138,31 @@
             this.btnPreleva.UseVisualStyleBackColor = true;
             this.btnPreleva.Click += new System.EventHandler(this.btnPreleva_Click);
             // 
+            // lblTMax
+            // 
+            this.lblTMax.AutoSize = true;
+            this.lblTMax.Location = new System.Drawing.Point(435, 19);
+            this.lblTMax.Name = "lblTMax";
+            this.lblTMax.Size = new System.Drawing.Size(168, 13);
+            this.lblTMax.TabIndex = 11;
+            this.lblTMax.Text = "Temperatura Massima del Giorno: ";
+            // 
+            // lblTMin
+            // 
+            this.lblTMin.AutoSize = true;
+            this.lblTMin.Location = new System.Drawing.Point(435, 45);
+            this.lblTMin.Name = "lblTMin";
+            this.lblTMin.Size = new System.Drawing.Size(160, 13);
+            this.lblTMin.TabIndex = 12;
+            this.lblTMin.Text = "Temperatura Minima del Giorno: ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblTMin);
+            this.Controls.Add(this.lblTMax);
             this.Controls.Add(this.btnPreleva);
             this.Controls.Add(this.btnAddPatient);
             this.Controls.Add(this.nmUDtemp);
@@ -172,6 +194,8 @@
         private System.Windows.Forms.NumericUpDown nmUDtemp;
         private System.Windows.Forms.Button btnAddPatient;
         private System.Windows.Forms.Button btnPreleva;
+        private System.Windows.Forms.Label lblTMax;
+        private System.Windows.Forms.Label lblTMin;
     }
 }
 

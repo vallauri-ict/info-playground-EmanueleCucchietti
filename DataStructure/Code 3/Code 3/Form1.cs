@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -12,94 +13,72 @@ namespace Code_3
 {
     public partial class Form1 : Form
     {
+        int max=0, min=100;
         public struct pazienti
         {
             public string nome;
             public int eta;
             public int temperatura;
+            public string color;
         }
-        public Form1()
-        {
-            InitializeComponent();
-        }
+        Dictionary<string, Queue<pazienti>> dictColors = new Dictionary<string, Queue<pazienti>>();
         Queue<pazienti> pazientiRosso = new Queue<pazienti>();
         Queue<pazienti> pazientiGiallo = new Queue<pazienti>();
         Queue<pazienti> pazientiVerde = new Queue<pazienti>();
         Queue<pazienti> pazientiBianco = new Queue<pazienti>();
+        public Form1()
+        {
+            InitializeComponent();
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            dictColors["Rosso"] = pazientiRosso;
+            dictColors["Giallo"] = pazientiGiallo;
+            dictColors["Verde"] = pazientiVerde;
+            dictColors["Bianco"] = pazientiBianco;
         }
-
         private void btnAddPatient_Click(object sender, EventArgs e)
         {
             Queue<pazienti> patients = null;
-            switch (cmbColore.GetItemText(cmbColore.SelectedItem))
-            {
-                case "Rosso":
-                    patients = pazientiRosso;
-                    break;
-                case "Giallo":
-                    patients = pazientiGiallo;
-                    break;
-                case "Verde":
-                    patients = pazientiVerde;
-                    break;
-                case "Bianco":
-                    patients = pazientiBianco;
-                    break;
-            }
+            patients = dictColors[cmbColore.GetItemText(cmbColore.SelectedItem)];
             insertPatient(patients);
+            modifyMaxMinTemperatures();
             clearFields();
         }
 
-        private void clearFields()
+        private void modifyMaxMinTemperatures()
         {
-            txtNome.Text = "";
-            txtEta.Text = "";
-            nmUDtemp.Value = 37;
+            if(nmUDtemp.Value > max)
+            {
+                max = Convert.ToInt32(nmUDtemp.Value);
+                lblTMax.Text = "Temperatura Massima del Giorno: " + max.ToString();
+            }
+            else if(nmUDtemp.Value < min)
+            {
+                min = Convert.ToInt32(nmUDtemp.Value);
+                lblTMin.Text = "Temperatura Minima del Giorno: " + min.ToString();
+            }
         }
-        private void insertPatient(Queue<pazienti> patients)
-        {
-            pazienti patient = new pazienti();
-            patient.nome = txtNome.Text;
-            patient.eta = Convert.ToInt32(txtEta.Text);
-            patient.temperatura = Convert.ToInt32(nmUDtemp.Value);
 
-            patients.Enqueue(patient);
-        }
         private void btnPreleva_Click(object sender, EventArgs e)
         {
-            string color = "";
+            bool passed = false;
             Queue<pazienti> patients;
-            if (pazientiRosso.Count > 0)
+            foreach(Queue<pazienti> patn in dictColors.Values)
             {
-                patients = pazientiRosso;
-                color = "Rosso";
+                if(patn.Count > 0)
+                {
+                    prelevaPaziente(patn);
+                    return ;
+                }
             }
-            else if (pazientiGiallo.Count > 0)
-            {
-                patients = pazientiGiallo;
-                color = "Giallo";
-            }
-            else if (pazientiVerde.Count > 0)
-            {
-                patients = pazientiVerde;
-                color = "Verde";
-            }
-            else if (pazientiBianco.Count > 0)
-            {
-                patients = pazientiBianco;
-                color = "Bianco";
-            }
-            else
+            if(!passed)
             {
                 MessageBox.Show("Non sono presenti pazienti");
                 return ;
             }
-            prelevaPaziente(patients,color);
         }
-        private void prelevaPaziente(Queue<pazienti> patients, string color)
+        private void prelevaPaziente(Queue<pazienti> patients)
         {
             pazienti patient;
             patient = patients.Dequeue();
@@ -112,8 +91,24 @@ namespace Code_3
                 +
                 "Temperatura: " + patient.temperatura + "\n"
                 +
-                "Codice colore: " + color +"\n"
+                "Codice colore: " + patient.color +"\n"
                 );
+        }
+        private void insertPatient(Queue<pazienti> patients)
+        {
+            pazienti patient = new pazienti();
+            patient.nome = txtNome.Text;
+            patient.eta = Convert.ToInt32(txtEta.Text);
+            patient.temperatura = Convert.ToInt32(nmUDtemp.Value);
+            patient.color = cmbColore.GetItemText(cmbColore.SelectedItem);
+
+            patients.Enqueue(patient);
+        }
+        private void clearFields()
+        {
+            txtNome.Text = "";
+            txtEta.Text = "";
+            nmUDtemp.Value = 37;
         }
     }
 }
