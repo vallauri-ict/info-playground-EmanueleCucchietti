@@ -124,6 +124,7 @@
             this.btnAreaParallelepipedo.TabIndex = 9;
             this.btnAreaParallelepipedo.Text = "Area Parallelepipedo";
             this.btnAreaParallelepipedo.UseVisualStyleBackColor = true;
+            this.btnAreaParallelepipedo.Click += new System.EventHandler(this.btnAreaParallelepipedo_Click);
             // 
             // btnVolumeCilindro
             // 
@@ -143,6 +144,7 @@
             this.btnVolumeParallelepipedo.TabIndex = 11;
             this.btnVolumeParallelepipedo.Text = "Volume Parallelepipedo";
             this.btnVolumeParallelepipedo.UseVisualStyleBackColor = true;
+            this.btnVolumeParallelepipedo.Click += new System.EventHandler(this.btnVolumeParallelepipedo_Click);
             // 
             // Form1
             // 

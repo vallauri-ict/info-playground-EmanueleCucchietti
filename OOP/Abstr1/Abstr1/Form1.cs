@@ -1,7 +1,7 @@
 namespace Abstr1
 {
     public partial class Form1 : Form
-    {
+    {   
         public Form1()
         {
             InitializeComponent();
@@ -22,6 +22,19 @@ namespace Abstr1
         {
             Cilindro c = new Cilindro(Convert.ToInt32(txtRaggio.Text), Convert.ToInt32(txtAltezza.Text));
             MessageBox.Show(c.StampaVolume());
+        }
+
+        private void btnAreaParallelepipedo_Click(object sender, EventArgs e)
+        {
+            Parallelepipedo p = new Parallelepipedo(Convert.ToInt32(txtLato1.Text), Convert.ToInt32(txtLato2.Text), Convert.ToInt32(txtAltezza.Text));
+            MessageBox.Show(p.StampaArea());
+        }
+
+        private void btnVolumeParallelepipedo_Click(object sender, EventArgs e)
+        {
+
+            Parallelepipedo p = new Parallelepipedo(Convert.ToInt32(txtLato1.Text), Convert.ToInt32(txtLato2.Text), Convert.ToInt32(txtAltezza.Text));
+            MessageBox.Show(p.StampaVolume());
         }
     }
 }
